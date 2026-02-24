@@ -1,13 +1,3 @@
-.tieude{
-  color: tomato;
-  font-weight: bold;
-  font-size: 20pt;
-}
-.ndung{
-color: black;
-font-stle: normal;
-font-size: 14pt;
-}
 .conterner{
   display:flex;
   flex-direction:column;
