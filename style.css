@@ -27,7 +27,7 @@ content iframe{
   flex: 1;
   border: none; 
   height: 100%;
-  weight: 100%;
+  width: 100%;
 }
 .footer{
   flex:10%;
