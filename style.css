@@ -27,9 +27,18 @@ content iframe{
   flex: 1;
   border: none; 
   height: 100%;
-  weight: 70%;
+  weight: 100%;
 }
 .footer{
   flex:10%;
   background-color: lightgray;
 }
+.tieude{
+  color: tomato;
+  font-weight: bold;
+  font-size: 25pt;
+  text-align: center;}
+.noidung {
+  color: black;
+  font-style: normal;
+  font-size: 14pt;}
