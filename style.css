@@ -24,7 +24,10 @@
   background-color: white;
 }
 content iframe{
-  
+  flex: 1;
+  border: none; 
+  height: 100%;
+  weight: 70%;
 }
 .footer{
   flex:10%;
