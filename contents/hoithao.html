@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title> Đóng góp ý kiến </title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1 style="color:tomato; text-align: center;"> ĐĂNG KÍ THAM GIA HỘI THAO </h1>
+       <b>Thông tin về người góp ý</b>
+      <form> 
+        <label> Họ và tên:<input type="text" name="txtTen"> </label> <br>
+        <label> Địa chỉ email:<input type="email" name="txtEmail"> </label> <br>
+      <form action="feedback.php" method="POST">
+          <input type="radio" name="optClass" value="10"> Lớp 10 <br>
+          <input type="radio" name="optClass" value="11"> Lớp 11 <br>
+          <input type="radio" name="optClass" value="12"> Lớp 12<br>  
+      </form>
+      <form action="feedback.php" method="POST">
+        <p> Tham dự môn:</p>
+        <input type="checkbox" name="ChkBongban"> Bóng bàn 
+        <input type="checkbox" name="ChkCaulong"> Cầu lông
+        <input type="checkbox" name="ChkCovua"> Cờ vua
+        <input type="submit" name="cmd" value="Đăng ký">
+        <input type="submit" name="cmd" value="Hủy bỏ">
+      </form>       
+  </body>
+</html>
+
