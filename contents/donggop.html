@@ -14,11 +14,16 @@
         <li> <b>Thông tin về người góp ý</b></li>
       <form action="bai7-nv3.html"> 
         <label> Họ và tên:<input type="text" name="txtTen"> </label> <br>
-        <label> Địa chỉ email:<input type="email" name="txtTen"> </label> <br>
+        <label> Địa chỉ email:<input type="email" name="txtEmail"> </label> <br>
       </form>
         <li> <b> Đóng góp ý kiến</b></li>
         <form action="bai7-nv3.html">
-          <label> Ý kiến:<input type="password" name="txtTen" rows="6" col="40"> </label>
+          <label> Ý kiến:<textarea name="txtComment" rows="6" cols="40"> </textarea> </label>
+          <input type="checkbox" name="chkTruyenNgan"> Truyện Ngắn <br>
+          <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
+          <input type="checkbox" name="chkCNTT"> Công nghệ thông tin<br>
+          <input type="checkbox" name="chkTruyenTranh"> Truyện Tranh <br>
+          <input type="checkbox" name="chkLichSu"> Lịch Sử <br>
           <input type="submit" name="cmd" value="Góp ý">
         </form>
       </ol>
