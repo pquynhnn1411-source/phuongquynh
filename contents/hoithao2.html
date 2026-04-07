@@ -2,8 +2,14 @@
     <title> Đóng góp ý kiến </title>
     <meta charset="utf-8">
     <body>
-      <b> Cảm ơn bạn dã dóng góp ý kiến</b>
-      <br> Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới.
+      <p id="kq"> </p>
+      <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten=pp.get("txtTen");
+        let dc=pp.get("txtEmail");
+        let yk=pp.get("txtComment");
+        document.getElementById("kq").innerHTML= "Cảm ơn bạn"  +  ten  +  "email:"  +  dc  +  "đã đóng góp ý kiến <br> Chúng tôi xin ghi nhận ý kiến của bạn như sau <br>"  +  yk;
+      </script>
       <form action="hoithao.html">
       <input type="submit" name="cmd" value="Quay lại">
       </form>
